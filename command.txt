@@ -1,0 +1,13 @@
+th neural_style.lua -style_image examples/inputs/starry_night.jpg -content_image 378314455748459397.jpg -output_image 1.png -optimizer adam -backend cudnn -cudnn_autotune  -num_iterations 2000
+
+th neural_style.lua -style_image examples/inputs/starry_night.jpg -content_image 472857084942363266.jpg -output_image 2.png -optimizer adam -backend cudnn -cudnn_autotune  -num_iterations 2000
+
+th neural_style.lua -style_image examples/inputs/starry_night.jpg -content_image 498472644089605785.jpg -output_image 3.png -optimizer adam -backend cudnn -cudnn_autotune  -num_iterations 2000
+ 
+th neural_style.lua -style_image examples/inputs/starry_night.jpg -content_image 223274849393225340.jpg -output_image 4.png -optimizer adam -backend cudnn -cudnn_autotune -num_iterations 2000
+
+th neural_style.lua -style_image examples/inputs/starry_night.jpg -content_image 639670348425490909.jpg -output_image 5.png -optimizer adam -backend cudnn -cudnn_autotune -num_iterations 2000
+
+th neural_style.lua -style_image TheChurch.jpg -content_image 223274849393225340.jpg -output_image 6.png -optimizer adam -backend cudnn -cudnn_autotune -num_iterations 2000
+
+th neural_style.lua -style_image church.jpg -content_image 223274849393225340.jpg -output_image 7.png -optimizer adam -backend cudnn -cudnn_autotune -num_iterations 2000
